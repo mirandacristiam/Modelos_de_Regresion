@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de Regresión - IA & ML</title>
+    <meta name="description" content="Aplicación web para predicción del rendimiento académico usando regresión lineal y logística">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    <script src="js/modelo.js"></script>
+    <script src="js/teoria.js"></script>
+    <script src="js/entrenamiento.js"></script>
+    <script src="js/prueba.js"></script>
+    <script src="js/integrantes.js"></script>
+    <script src="js/detalles.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-inner">
+            <a href="#" class="navbar-brand" onclick="mostrarSeccion('inicio')">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <path d="M12 6v6l4 2"/>
+                </svg>
+                Modelos de Regresión
+            </a>
+
+            <button class="menu-toggle" aria-label="Menú">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 12h18"/><path d="M3 6h18"/><path d="M3 18h18"/>
+                </svg>
+            </button>
+
+            <ul class="navbar-menu">
+                <li><a href="#" data-section="inicio" class="active">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><path d="M9 22V12h6v10"/></svg>
+                    Inicio
+                </a></li>
+                <li><a href="#" data-section="teoria">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>
+                    Teoría
+                </a></li>
+                <li><a href="#" data-section="entrenamiento">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                    Entrenamiento
+                </a></li>
+                <li><a href="#" data-section="prueba">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+                    Prueba
+                </a></li>
+                <li><a href="#" data-section="detalles">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg>
+                    Detalles Técnicos
+                </a></li>
+                <li><a href="#" data-section="integrantes">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+                    Integrantes
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-wrapper">
+        <div id="section-inicio" class="section active">
+            <div id="inicio-content"></div>
+        </div>
+
+        <div id="section-teoria" class="section">
+            <div id="teoria-content"></div>
+        </div>
+
+        <div id="section-entrenamiento" class="section">
+            <div id="entrenamiento-content"></div>
+        </div>
+
+        <div id="section-prueba" class="section">
+            <div id="prueba-content"></div>
+        </div>
+
+        <div id="section-detalles" class="section">
+            <div id="detalles-content"></div>
+        </div>
+
+        <div id="section-integrantes" class="section">
+            <div id="integrantes-content"></div>
+        </div>
+    </main>
+
+</body>
+</html>
