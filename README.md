@@ -47,3 +47,20 @@ Modelos_de_Regresion/
 - **HTML5 & CSS3:** Estructura semántica e interfaz visual dinámica.
 - **JavaScript (ES6):** Toda la lógica matemática de los modelos de regresión y el control del DOM están programados en JS nativo.
 - **Apache ECharts:** Librería para la representación gráfica y visualización interactiva de los datos de entrenamiento y evaluación.
+
+---
+
+## 👥 Integrantes
+
+- **Cristian** - Desarrollador Principal (Implementación del modelo de regresión logística e integración general del aplicativo web)
+- **Antonio** - Analista de Datos (Recolección, preparación del dataset y validación de los resultados del modelo)
+- **Brayan** - Diseñador UI/UX (Interfaz de usuario y experiencia de navegación)
+- **Juan Camilo** - Documentador (Documentación teórica, fórmulas y presentación del proyecto)
+
+---
+
+## 🌐 Demo En Vivo
+
+El proyecto se encuentra desplegado y listo para su uso en la siguiente dirección:
+👉 **[https://modelosderegresion.hypermathics.com/](https://modelosderegresion.hypermathics.com/)**
+
