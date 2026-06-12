@@ -52,10 +52,10 @@ Modelos_de_Regresion/
 
 ## 👥 Integrantes
 
-- **Cristian** - Desarrollador Principal (Implementación del modelo de regresión logística e integración general del aplicativo web)
-- **Antonio** - Analista de Datos (Recolección, preparación del dataset y validación de los resultados del modelo)
-- **Brayan** - Diseñador UI/UX (Interfaz de usuario y experiencia de navegación)
-- **Juan Camilo** - Documentador (Documentación teórica, fórmulas y presentación del proyecto)
+- **Cristian Miranda** - Estudiante de octavo semestre de ingeniería informática
+- **Antonio Bravo** - Estudiante de octavo semestre de ingeniería informática
+- **Brayan Amaya** - Estudiante de octavo semestre de ingeniería informática
+- **Juan Camilo Noguera** - Estudiante de octavo semestre de ingeniería informática
 
 ---
 

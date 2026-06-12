@@ -1,8 +1,8 @@
 const integrantes = [
-    { nombre: 'Cristian', rol: 'Desarrollador Principal', desc: 'Encargado de la implementación del modelo de regresión logística y la integración general del aplicativo web.' },
-    { nombre: 'Antonio', rol: 'Analista de Datos', desc: 'Responsable de la recolección, preparación del dataset y validación de los resultados del modelo.' },
-    { nombre: 'Brayan', rol: 'Diseñador UI/UX', desc: 'Diseñó la interfaz de usuario profesional con enfoque en usabilidad y experiencia de navegación.' },
-    { nombre: 'Juan Camilo', rol: 'Documentador', desc: 'Elaboró la documentación teórica, fórmulas, ejemplos y la presentación del proyecto.' }
+    { nombre: 'Cristian Miranda', rol: 'Estudiante de octavo semestre de ingeniería informática', desc: '' },
+    { nombre: 'Antonio Bravo', rol: 'Estudiante de octavo semestre de ingeniería informática', desc: '' },
+    { nombre: 'Brayan Amaya', rol: 'Estudiante de octavo semestre de ingeniería informática', desc: '' },
+    { nombre: 'Juan Camilo Noguera', rol: 'Estudiante de octavo semestre de ingeniería informática', desc: '' }
 ];
 
 function renderIntegrantes() {
@@ -10,10 +10,11 @@ function renderIntegrantes() {
     
     let cards = '';
     integrantes.forEach(m => {
+        const primerNombre = m.nombre.split(' ')[0];
         cards += `
             <div class="team-card">
                 <div class="team-photo-wrapper">
-                    <img src="images/${m.nombre}.png" alt="${m.nombre}" class="team-photo">
+                    <img src="images/${primerNombre}.png" alt="${m.nombre}" class="team-photo">
                 </div>
                 <h4>${m.nombre}</h4>
                 <div class="team-role">${m.rol}</div>
